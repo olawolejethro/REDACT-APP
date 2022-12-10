@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redactr</title>
+  <link rel="stylesheet" href="redact.css">
+
+</head>
+
+<body>
+
+  </header>
+  <main class="main-txt">
+    <!--     <p>App Instructon : Users are expected to fill the main text box with text and go to the symbol box to fill the
+      required symbol he/she want's to replace the reacted text with thereafter click on the react text button </p> -->
+    <div class="logo">
+      <img class="logo-img" src="./image/download.png" alt="logo" />
+      <h3>Redact App</h3>
+      <img class="logo-img" src="./image/2-3.png" alt="logo2" />
+    </div>
+
+
+    <form action="" class="form-txt">
+      <div class="input">
+        <label for="main-T" class="user-txt">Main Text*</label>
+        <!-- <input type="text" name="text"   class="form-input" id="Text-input"required /> -->
+        <textarea name="text" id="Text-input" class="form-input" placeholder="Type main text" cols="68" rows="1"
+          required></textarea>
+      </div>
+
+      <div class="input">
+        <label for="New-T" class="user-txt">Scrambled Text*</label>
+        <input type="text" class="form-input" id="form_input" name="text"
+          placeholder="Type word(s) you want to redact. Separate with space if more than a word" required />
+      </div>
+      <div class="input">
+        <label for="symbol" class="user-txt">Symbol</label>
+        <input type="text" class="form-input" id="sym-bol" name="text"
+          placeholder="Use at least two symbols to replace redacted word(s)" />
+      </div>
+
+      <div class="submit-btn">
+        <button type="button" class="redact-btn">Redact Text</button>
+      </div>
+    </form>
+
+    <!--     this div will be used to diplay results and stats -->
+    <section id="result">
+      <!--       <label for="New-T" class="user-txt">Result</label>
+      <div class="result-text">
+      </div>
+      <div class="result-stats">
+        <div id="scanned-stat">Scanned words: </div>
+        <div id="matched-stat">Matched words: </div>
+      </div> -->
+    </section>
+
+    </div>
+
+    <!--     ================ ================= ========= -->
+
+    <footer>
+      <p class="footer-text">
+        &copy; copyright 2022, AltSchool Africa Holiday Challenge by
+        circle 203.
+      </p>
+    </footer>
+  </main>
+
+
+  <!--   <script src="./redact.js"></script> -->
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+</body>
+
+</html>
